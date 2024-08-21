@@ -1,0 +1,94 @@
+
+
+
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+  header::before{
+    content:" ";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity: 0.5;
+    }
+  
+  .bg4{
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+
+  .navigation{
+  font-family: 'bree Serif', serif;
+  font-size:20px;
+  color: aliceblue;
+  display: flex;
+  
+  }
+  li{
+     list-style: none;
+      padding: 20px 23px;
+    
+  }
+  li:hover{
+    color: black;
+    background-color:white;
+    border-radius: 10px;
+    text-shadow:2px 3px 8px rgb(236, 38, 38);
+  }
+  
+  h1{
+    font-size:4rem;
+    text-shadow: 3px 5px  3px rgb(105, 195, 247); -4px -3px red;
+    
+    }
+  
+  p{
+    font-size:2rem;
+    text-shadow: 2px 3px 4px grey;
+    
+  }
+  
+  
+  .effect1:hover{
+  background-color: rgb(225, 118, 235);
+  border-radius: 50px;
+  text-shadow: 2px 4px 10px yellow;
+  margin-block: 2px;
+  
+  }
+  .zoom{
+  color: rgb(19, 92, 226);
+  }
+  .zoom:hover 
+{
+    animation: animate 2s linear;
+}
+@keyframes animate {
+    0%
+    {
+        transform: scale(1.50);
+    }
+    80%
+    {
+        transform: scale(0.60);
+    }
+    95%
+    {
+        transform: scale(1.10);
+    }
+    100%
+    {
+        transform: scale(1);
+    }
+}

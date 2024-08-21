@@ -1,0 +1,47 @@
+.zoom, h1 {
+    transition:transform 1s;
+    height: 344px;
+    font-family: 'bree Serif', serif;
+    margin:3px 23px;
+    display:flex;
+    flex-direction:column;
+    font-style: oblique;
+    color: rgb(72, 1, 87);
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    box-shadow: inset;
+    text-align: center;
+    align-items: center;
+    text-shadow: 3px 5px  4px violet;
+    padding: 7px 6px 9px 4px
+}
+.zoom:hover
+{
+transform:scale(2.5);
+}
+.bg3{
+    z-index: 35;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.table, h2{
+    text-align: center;
+    color:rgb(0, 0, 0)
+}
+.table, a{
+    color:rgb(255, 0, 119);
+}
+.table, h3{
+    text-align: center;
+    color:rgb(2, 80, 37);
+}
+.table, a{
+    color: #221644;
+}
+.a:visited{
+    color: #636;
+}
+a:hover, a:active, a:focus{
+    color: #c33;
+}
